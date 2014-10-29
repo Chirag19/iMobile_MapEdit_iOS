@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch.iPad" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <development version="4600" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="5" customClass="MapControl">
+                        <rect key="frame" x="0.0" y="20" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhP-r9-G5M">
+                                <rect key="frame" x="670" y="674" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="4jh-fe-Ne1"/>
+                                    <constraint firstAttribute="width" constant="55" id="lJV-4f-7GF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" backgroundImage="图标-放大-72.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnZoomIn:" destination="2" eventType="touchUpInside" id="mPt-gL-uo9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKA-VF-goU">
+                                <rect key="frame" x="670" y="752" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Je6-VG-AZd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" backgroundImage="图标-缩小-72.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnZoomOut:" destination="2" eventType="touchUpInside" id="yAg-G1-Q81"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydJ-gQ-5Nc">
+                                <rect key="frame" x="670" y="827" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="LFN-HE-feN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" backgroundImage="图标-全幅-72.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnFullmap:" destination="2" eventType="touchUpInside" id="wga-Zt-lWn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="RhP-r9-G5M" firstAttribute="trailing" secondItem="pKA-VF-goU" secondAttribute="trailing" type="default" id="6li-Mp-ozr"/>
+                            <constraint firstAttribute="trailing" secondItem="RhP-r9-G5M" secondAttribute="trailing" constant="43" id="C7u-w5-Hph"/>
+                            <constraint firstAttribute="bottom" secondItem="ydJ-gQ-5Nc" secondAttribute="bottom" constant="78" id="OYA-5Y-DHR"/>
+                            <constraint firstItem="ydJ-gQ-5Nc" firstAttribute="leading" secondItem="pKA-VF-goU" secondAttribute="leading" type="default" id="PEt-wk-6n4"/>
+                            <constraint firstAttribute="bottom" secondItem="RhP-r9-G5M" secondAttribute="bottom" constant="231" id="WGj-U3-V7Q"/>
+                            <constraint firstAttribute="bottom" secondItem="pKA-VF-goU" secondAttribute="bottom" constant="153" id="Yvb-kX-dWW"/>
+                            <constraint firstItem="ydJ-gQ-5Nc" firstAttribute="trailing" secondItem="pKA-VF-goU" secondAttribute="trailing" type="default" id="sW6-3a-4w5"/>
+                            <constraint firstItem="RhP-r9-G5M" firstAttribute="leading" secondItem="pKA-VF-goU" secondAttribute="leading" type="default" id="uH0-3i-ZXn"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="0O1-Q6-4ge"/>
+                        <barButtonItem title="Item" id="d5V-D8-FZv"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="m_mapControl" destination="5" id="T8q-HC-00i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="图标-全幅-72.png" width="72" height="72"/>
+        <image name="图标-放大-72.png" width="72" height="72"/>
+        <image name="图标-缩小-72.png" width="72" height="72"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

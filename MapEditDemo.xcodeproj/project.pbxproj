@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A62F149B1978A7F5008ABB25 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62F149A1978A7F5008ABB25 /* AudioToolbox.framework */; };
+		A62F149E1978AB53008ABB25 /* bg_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = A62F149C1978AB53008ABB25 /* bg_delete.png */; };
+		A62F149F1978AB53008ABB25 /* bg_submit.png in Resources */ = {isa = PBXBuildFile; fileRef = A62F149D1978AB53008ABB25 /* bg_submit.png */; };
+		A6382902194C2D2A00500FB0 /* SegImpSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = A6382901194C2D2A00500FB0 /* SegImpSecond.m */; };
+		A63F8F7D196B98CB002FC19D /* vertical_split_line.png in Resources */ = {isa = PBXBuildFile; fileRef = A63F8F7C196B98CB002FC19D /* vertical_split_line.png */; };
+		A6B23D3119512FB2008C5FC9 /* 03-编辑设置未选_中细线.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CC619512FB2008C5FC9 /* 03-编辑设置未选_中细线.png */; };
+		A6B23D3219512FB2008C5FC9 /* 03-编辑设置未选_粗线.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CC719512FB2008C5FC9 /* 03-编辑设置未选_粗线.png */; };
+		A6B23D3319512FB2008C5FC9 /* 03-编辑设置未选_红.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CC819512FB2008C5FC9 /* 03-编辑设置未选_红.png */; };
+		A6B23D3419512FB2008C5FC9 /* 03-编辑设置未选_细线.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CC919512FB2008C5FC9 /* 03-编辑设置未选_细线.png */; };
+		A6B23D3519512FB2008C5FC9 /* 03-编辑设置未选_蓝.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CCA19512FB2008C5FC9 /* 03-编辑设置未选_蓝.png */; };
+		A6B23D3619512FB2008C5FC9 /* 03-编辑设置未选_黄.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CCB19512FB2008C5FC9 /* 03-编辑设置未选_黄.png */; };
+		A6B23D3719512FB2008C5FC9 /* 03-编辑设置选中_中细线.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CCC19512FB2008C5FC9 /* 03-编辑设置选中_中细线.png */; };
+		A6B23D3819512FB2008C5FC9 /* 03-编辑设置选中_粗线.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CCD19512FB2008C5FC9 /* 03-编辑设置选中_粗线.png */; };
+		A6B23D3919512FB2008C5FC9 /* 03-编辑设置选中_红.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CCE19512FB2008C5FC9 /* 03-编辑设置选中_红.png */; };
+		A6B23D3A19512FB2008C5FC9 /* 03-编辑设置选中_细线.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CCF19512FB2008C5FC9 /* 03-编辑设置选中_细线.png */; };
+		A6B23D3B19512FB2008C5FC9 /* 03-编辑设置选中_蓝.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CD019512FB2008C5FC9 /* 03-编辑设置选中_蓝.png */; };
+		A6B23D3C19512FB2008C5FC9 /* 03-编辑设置选中_黄.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CD119512FB2008C5FC9 /* 03-编辑设置选中_黄.png */; };
+		A6B23D3D19512FB2008C5FC9 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CD219512FB2008C5FC9 /* button.png */; };
+		A6B23D3E19512FB2008C5FC9 /* com_longbutton_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CD319512FB2008C5FC9 /* com_longbutton_bg.png */; };
+		A6B23D3F19512FB2008C5FC9 /* datasettype_all_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CD419512FB2008C5FC9 /* datasettype_all_nor.png */; };
+		A6B23D4019512FB2008C5FC9 /* datasettype_line_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CD519512FB2008C5FC9 /* datasettype_line_nor.png */; };
+		A6B23D4119512FB2008C5FC9 /* datasettype_point_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CD619512FB2008C5FC9 /* datasettype_point_nor.png */; };
+		A6B23D4219512FB2008C5FC9 /* datasettype_polygon_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CD719512FB2008C5FC9 /* datasettype_polygon_nor.png */; };
+		A6B23D4319512FB2008C5FC9 /* datasettype_text_nor.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CD819512FB2008C5FC9 /* datasettype_text_nor.png */; };
+		A6B23D4419512FB2008C5FC9 /* 主未选_地图展示-100.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CD919512FB2008C5FC9 /* 主未选_地图展示-100.png */; };
+		A6B23D4519512FB2008C5FC9 /* 主未选_地图展示.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CDA19512FB2008C5FC9 /* 主未选_地图展示.png */; };
+		A6B23D4619512FB2008C5FC9 /* 主未选_工作空间-100.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CDB19512FB2008C5FC9 /* 主未选_工作空间-100.png */; };
+		A6B23D4719512FB2008C5FC9 /* 主未选_工作空间.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CDC19512FB2008C5FC9 /* 主未选_工作空间.png */; };
+		A6B23D4819512FB2008C5FC9 /* 主未选_数据源-100.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CDD19512FB2008C5FC9 /* 主未选_数据源-100.png */; };
+		A6B23D4919512FB2008C5FC9 /* 主未选_数据源.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CDE19512FB2008C5FC9 /* 主未选_数据源.png */; };
+		A6B23D4A19512FB2008C5FC9 /* 主选中_地图展示-100.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CDF19512FB2008C5FC9 /* 主选中_地图展示-100.png */; };
+		A6B23D4B19512FB2008C5FC9 /* 主选中_地图展示.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CE019512FB2008C5FC9 /* 主选中_地图展示.png */; };
+		A6B23D4C19512FB2008C5FC9 /* 主选中_工作空间-100.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CE119512FB2008C5FC9 /* 主选中_工作空间-100.png */; };
+		A6B23D4D19512FB2008C5FC9 /* 主选中_工作空间.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CE219512FB2008C5FC9 /* 主选中_工作空间.png */; };
+		A6B23D4E19512FB2008C5FC9 /* 主选中_数据源-100.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CE319512FB2008C5FC9 /* 主选中_数据源-100.png */; };
+		A6B23D4F19512FB2008C5FC9 /* 主选中_数据源.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CE419512FB2008C5FC9 /* 主选中_数据源.png */; };
+		A6B23D5019512FB2008C5FC9 /* 功能图标_关闭.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CE519512FB2008C5FC9 /* 功能图标_关闭.png */; };
+		A6B23D5119512FB2008C5FC9 /* 功能图标_打开.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CE619512FB2008C5FC9 /* 功能图标_打开.png */; };
+		A6B23D5219512FB2008C5FC9 /* 功能图标_返回.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CE719512FB2008C5FC9 /* 功能图标_返回.png */; };
+		A6B23D5319512FB2008C5FC9 /* 图标-全幅-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CE819512FB2008C5FC9 /* 图标-全幅-72.png */; };
+		A6B23D5419512FB2008C5FC9 /* 图标-全幅.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CE919512FB2008C5FC9 /* 图标-全幅.png */; };
+		A6B23D5519512FB2008C5FC9 /* 图标-放大-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CEA19512FB2008C5FC9 /* 图标-放大-72.png */; };
+		A6B23D5619512FB2008C5FC9 /* 图标-放大.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CEB19512FB2008C5FC9 /* 图标-放大.png */; };
+		A6B23D5719512FB2008C5FC9 /* 图标-缩小-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CEC19512FB2008C5FC9 /* 图标-缩小-72.png */; };
+		A6B23D5819512FB2008C5FC9 /* 图标-缩小.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CED19512FB2008C5FC9 /* 图标-缩小.png */; };
+		A6B23D5919512FB2008C5FC9 /* 图标_CAD.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CEE19512FB2008C5FC9 /* 图标_CAD.png */; };
+		A6B23D5A19512FB2008C5FC9 /* 图标_DEM.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CEF19512FB2008C5FC9 /* 图标_DEM.png */; };
+		A6B23D5B19512FB2008C5FC9 /* 图标_iserver.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CF019512FB2008C5FC9 /* 图标_iserver.png */; };
+		A6B23D5C19512FB2008C5FC9 /* 图标_SIT.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CF119512FB2008C5FC9 /* 图标_SIT.png */; };
+		A6B23D5D19512FB2008C5FC9 /* 图标_天地图.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CF219512FB2008C5FC9 /* 图标_天地图.png */; };
+		A6B23D5E19512FB2008C5FC9 /* 图标_百度.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CF319512FB2008C5FC9 /* 图标_百度.png */; };
+		A6B23D5F19512FB2008C5FC9 /* 图标_矢量地图.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CF419512FB2008C5FC9 /* 图标_矢量地图.png */; };
+		A6B23D6019512FB2008C5FC9 /* 图标_谷歌.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CF519512FB2008C5FC9 /* 图标_谷歌.png */; };
+		A6B23D6119512FB2008C5FC9 /* 图标_超图云服务.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CF619512FB2008C5FC9 /* 图标_超图云服务.png */; };
+		A6B23D6219512FB2008C5FC9 /* 图标下一级_未选.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CF719512FB2008C5FC9 /* 图标下一级_未选.png */; };
+		A6B23D6319512FB2008C5FC9 /* 图标下一级_选中.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CF819512FB2008C5FC9 /* 图标下一级_选中.png */; };
+		A6B23D6419512FB2008C5FC9 /* 复选框图标_未选.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CF919512FB2008C5FC9 /* 复选框图标_未选.png */; };
+		A6B23D6519512FB2008C5FC9 /* 复选框图标_选中.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CFA19512FB2008C5FC9 /* 复选框图标_选中.png */; };
+		A6B23D6619512FB2008C5FC9 /* 提示框-左侧箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CFB19512FB2008C5FC9 /* 提示框-左侧箭头.png */; };
+		A6B23D6719512FB2008C5FC9 /* 查询_关闭.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CFC19512FB2008C5FC9 /* 查询_关闭.png */; };
+		A6B23D6819512FB2008C5FC9 /* 查询_定位图标.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CFD19512FB2008C5FC9 /* 查询_定位图标.png */; };
+		A6B23D6919512FB2008C5FC9 /* 查询_辐射点.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CFE19512FB2008C5FC9 /* 查询_辐射点.png */; };
+		A6B23D6A19512FB2008C5FC9 /* 查询状态栏_列表.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23CFF19512FB2008C5FC9 /* 查询状态栏_列表.png */; };
+		A6B23D6B19512FB2008C5FC9 /* 查询状态栏_属性查询.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0019512FB2008C5FC9 /* 查询状态栏_属性查询.png */; };
+		A6B23D6C19512FB2008C5FC9 /* 查询状态栏_清除.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0119512FB2008C5FC9 /* 查询状态栏_清除.png */; };
+		A6B23D6D19512FB2008C5FC9 /* 查询状态栏_点范围.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0219512FB2008C5FC9 /* 查询状态栏_点范围.png */; };
+		A6B23D6E19512FB2008C5FC9 /* 查询状态栏_线范围.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0319512FB2008C5FC9 /* 查询状态栏_线范围.png */; };
+		A6B23D6F19512FB2008C5FC9 /* 查询状态栏_面范围.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0419512FB2008C5FC9 /* 查询状态栏_面范围.png */; };
+		A6B23D7019512FB2008C5FC9 /* 查询状态栏选中_列表.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0519512FB2008C5FC9 /* 查询状态栏选中_列表.png */; };
+		A6B23D7119512FB2008C5FC9 /* 查询状态栏选中_属性查询.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0619512FB2008C5FC9 /* 查询状态栏选中_属性查询.png */; };
+		A6B23D7219512FB2008C5FC9 /* 查询状态栏选中_清除.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0719512FB2008C5FC9 /* 查询状态栏选中_清除.png */; };
+		A6B23D7319512FB2008C5FC9 /* 查询状态栏选中_点范围.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0819512FB2008C5FC9 /* 查询状态栏选中_点范围.png */; };
+		A6B23D7419512FB2008C5FC9 /* 查询状态栏选中_线范围.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0919512FB2008C5FC9 /* 查询状态栏选中_线范围.png */; };
+		A6B23D7519512FB2008C5FC9 /* 查询状态栏选中_面范围.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0A19512FB2008C5FC9 /* 查询状态栏选中_面范围.png */; };
+		A6B23D7619512FB2008C5FC9 /* 添加未选_涂鸦.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0B19512FB2008C5FC9 /* 添加未选_涂鸦.png */; };
+		A6B23D7719512FB2008C5FC9 /* 添加未选_点.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0C19512FB2008C5FC9 /* 添加未选_点.png */; };
+		A6B23D7819512FB2008C5FC9 /* 添加未选_线.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0D19512FB2008C5FC9 /* 添加未选_线.png */; };
+		A6B23D7919512FB2008C5FC9 /* 添加未选_自由线.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0E19512FB2008C5FC9 /* 添加未选_自由线.png */; };
+		A6B23D7A19512FB2008C5FC9 /* 添加未选_自由面.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D0F19512FB2008C5FC9 /* 添加未选_自由面.png */; };
+		A6B23D7B19512FB2008C5FC9 /* 添加未选_面.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1019512FB2008C5FC9 /* 添加未选_面.png */; };
+		A6B23D7C19512FB2008C5FC9 /* 添加选中_涂鸦.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1119512FB2008C5FC9 /* 添加选中_涂鸦.png */; };
+		A6B23D7D19512FB2008C5FC9 /* 添加选中_点.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1219512FB2008C5FC9 /* 添加选中_点.png */; };
+		A6B23D7E19512FB2008C5FC9 /* 添加选中_线.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1319512FB2008C5FC9 /* 添加选中_线.png */; };
+		A6B23D7F19512FB2008C5FC9 /* 添加选中_自由线.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1419512FB2008C5FC9 /* 添加选中_自由线.png */; };
+		A6B23D8019512FB2008C5FC9 /* 添加选中_自由面.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1519512FB2008C5FC9 /* 添加选中_自由面.png */; };
+		A6B23D8119512FB2008C5FC9 /* 添加选中_面.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1619512FB2008C5FC9 /* 添加选中_面.png */; };
+		A6B23D8219512FB2008C5FC9 /* 编辑_二级菜单辅助箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1719512FB2008C5FC9 /* 编辑_二级菜单辅助箭头.png */; };
+		A6B23D8319512FB2008C5FC9 /* 编辑对象未选_删除对象.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1819512FB2008C5FC9 /* 编辑对象未选_删除对象.png */; };
+		A6B23D8419512FB2008C5FC9 /* 编辑对象未选_删除节点.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1919512FB2008C5FC9 /* 编辑对象未选_删除节点.png */; };
+		A6B23D8519512FB2008C5FC9 /* 编辑对象未选_添加节点.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1A19512FB2008C5FC9 /* 编辑对象未选_添加节点.png */; };
+		A6B23D8619512FB2008C5FC9 /* 编辑对象未选_编辑节点.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1B19512FB2008C5FC9 /* 编辑对象未选_编辑节点.png */; };
+		A6B23D8719512FB2008C5FC9 /* 编辑对象未选_选中对象.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1C19512FB2008C5FC9 /* 编辑对象未选_选中对象.png */; };
+		A6B23D8819512FB2008C5FC9 /* 编辑对象选中_删除对象.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1D19512FB2008C5FC9 /* 编辑对象选中_删除对象.png */; };
+		A6B23D8919512FB2008C5FC9 /* 编辑对象选中_删除节点.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1E19512FB2008C5FC9 /* 编辑对象选中_删除节点.png */; };
+		A6B23D8A19512FB2008C5FC9 /* 编辑对象选中_添加节点.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D1F19512FB2008C5FC9 /* 编辑对象选中_添加节点.png */; };
+		A6B23D8B19512FB2008C5FC9 /* 编辑对象选中_编辑节点.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2019512FB2008C5FC9 /* 编辑对象选中_编辑节点.png */; };
+		A6B23D8C19512FB2008C5FC9 /* 编辑对象选中_选中对象.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2119512FB2008C5FC9 /* 编辑对象选中_选中对象.png */; };
+		A6B23D8D19512FB2008C5FC9 /* 编辑未选_取消.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2219512FB2008C5FC9 /* 编辑未选_取消.png */; };
+		A6B23D8E19512FB2008C5FC9 /* 编辑未选_提交.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2319512FB2008C5FC9 /* 编辑未选_提交.png */; };
+		A6B23D8F19512FB2008C5FC9 /* 编辑未选_撤销.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2419512FB2008C5FC9 /* 编辑未选_撤销.png */; };
+		A6B23D9019512FB2008C5FC9 /* 编辑未选_添加对象.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2519512FB2008C5FC9 /* 编辑未选_添加对象.png */; };
+		A6B23D9119512FB2008C5FC9 /* 编辑未选_编辑对象.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2619512FB2008C5FC9 /* 编辑未选_编辑对象.png */; };
+		A6B23D9219512FB2008C5FC9 /* 编辑未选_重做.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2719512FB2008C5FC9 /* 编辑未选_重做.png */; };
+		A6B23D9319512FB2008C5FC9 /* 编辑未选_风格设置.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2819512FB2008C5FC9 /* 编辑未选_风格设置.png */; };
+		A6B23D9419512FB2008C5FC9 /* 编辑选中_取消.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2919512FB2008C5FC9 /* 编辑选中_取消.png */; };
+		A6B23D9519512FB2008C5FC9 /* 编辑选中_提交.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2A19512FB2008C5FC9 /* 编辑选中_提交.png */; };
+		A6B23D9619512FB2008C5FC9 /* 编辑选中_撤销.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2B19512FB2008C5FC9 /* 编辑选中_撤销.png */; };
+		A6B23D9719512FB2008C5FC9 /* 编辑选中_添加对象.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2C19512FB2008C5FC9 /* 编辑选中_添加对象.png */; };
+		A6B23D9819512FB2008C5FC9 /* 编辑选中_编辑对象.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2D19512FB2008C5FC9 /* 编辑选中_编辑对象.png */; };
+		A6B23D9919512FB2008C5FC9 /* 编辑选中_重做.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2E19512FB2008C5FC9 /* 编辑选中_重做.png */; };
+		A6B23D9A19512FB2008C5FC9 /* 编辑选中_风格设置.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D2F19512FB2008C5FC9 /* 编辑选中_风格设置.png */; };
+		A6B23D9B19512FB2008C5FC9 /* 颜色值.txt in Resources */ = {isa = PBXBuildFile; fileRef = A6B23D3019512FB2008C5FC9 /* 颜色值.txt */; };
+		A6B240901952C949008C5FC9 /* EditManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B2408F1952C949008C5FC9 /* EditManager.m */; };
+		A6B244DB1953E716008C5FC9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B244D71953E716008C5FC9 /* MainStoryboard_iPad.storyboard */; };
+		A6B244DC1953E716008C5FC9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B244D91953E716008C5FC9 /* MainStoryboard_iPhone.storyboard */; };
+		A6B244DF1953E724008C5FC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6B244DD1953E724008C5FC9 /* InfoPlist.strings */; };
+		A6B252D5195D1206008C5FC9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B252D4195D1206008C5FC9 /* Icon@2x.png */; };
+		A6B252FB195D544E008C5FC9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B252FA195D544E008C5FC9 /* Icon.png */; };
+		A6B77A221947EED50005E410 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B77A211947EED50005E410 /* UIKit.framework */; };
+		A6B77A241947EED50005E410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B77A231947EED50005E410 /* Foundation.framework */; };
+		A6B77A261947EED50005E410 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B77A251947EED50005E410 /* CoreGraphics.framework */; };
+		A6B77A281947EED50005E410 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B77A271947EED50005E410 /* CoreLocation.framework */; };
+		A6B77A2A1947EED50005E410 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B77A291947EED50005E410 /* QuartzCore.framework */; };
+		A6B77A2C1947EED50005E410 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B77A2B1947EED50005E410 /* OpenGLES.framework */; };
+		A6B77A2E1947EED50005E410 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B77A2D1947EED50005E410 /* Security.framework */; };
+		A6B77A361947EED60005E410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B77A351947EED60005E410 /* main.m */; };
+		A6B77A3A1947EED60005E410 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B77A391947EED60005E410 /* AppDelegate.m */; };
+		A6B77A3C1947EED60005E410 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B77A3B1947EED60005E410 /* Default.png */; };
+		A6B77A3E1947EED60005E410 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B77A3D1947EED60005E410 /* Default@2x.png */; };
+		A6B77A401947EED60005E410 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B77A3F1947EED60005E410 /* Default-568h@2x.png */; };
+		A6B77A491947EED60005E410 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B77A481947EED60005E410 /* ViewController.m */; };
+		A6B77B11194800230005E410 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B77B10194800230005E410 /* Common.m */; };
+		A6B77B16194987FD0005E410 /* SegImp.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B77B15194987FD0005E410 /* SegImp.m */; };
+		A6D914C71974F4CB007C63CC /* 03-编辑对象未选_距离量算.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D914C11974F4CB007C63CC /* 03-编辑对象未选_距离量算.png */; };
+		A6D914C81974F4CB007C63CC /* 03-编辑对象未选_面积量算.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D914C21974F4CB007C63CC /* 03-编辑对象未选_面积量算.png */; };
+		A6D914C91974F4CB007C63CC /* 03-编辑对象选中_距离量算.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D914C31974F4CB007C63CC /* 03-编辑对象选中_距离量算.png */; };
+		A6D914CA1974F4CB007C63CC /* 03-编辑对象选中_面积量算.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D914C41974F4CB007C63CC /* 03-编辑对象选中_面积量算.png */; };
+		A6D914CB1974F4CB007C63CC /* 03-编辑未选_量算.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D914C51974F4CB007C63CC /* 03-编辑未选_量算.png */; };
+		A6D914CC1974F4CB007C63CC /* 03-编辑选中_量算.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D914C61974F4CB007C63CC /* 03-编辑选中_量算.png */; };
+		A6D970D419860086003D9FFA /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D970D319860086003D9FFA /* libiconv.dylib */; };
+		A6F0578719FF71CD00869DFC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0578619FF71CD00869DFC /* CoreText.framework */; };
+		A6F0578919FF71D800869DFC /* SuperMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0578819FF71D800869DFC /* SuperMap.framework */; };
+		A6F0578B19FF71DD00869DFC /* SuperMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6F0578A19FF71DD00869DFC /* SuperMap.bundle */; };
+		A6F0578F19FF739A00869DFC /* demoData.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6F0578E19FF739A00869DFC /* demoData.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A62F149A1978A7F5008ABB25 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A62F149C1978AB53008ABB25 /* bg_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_delete.png; sourceTree = "<group>"; };
+		A62F149D1978AB53008ABB25 /* bg_submit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_submit.png; sourceTree = "<group>"; };
+		A6382900194C2D2A00500FB0 /* SegImpSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegImpSecond.h; sourceTree = "<group>"; };
+		A6382901194C2D2A00500FB0 /* SegImpSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegImpSecond.m; sourceTree = "<group>"; };
+		A63F8F7C196B98CB002FC19D /* vertical_split_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vertical_split_line.png; sourceTree = "<group>"; };
+		A6B23CC619512FB2008C5FC9 /* 03-编辑设置未选_中细线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑设置未选_中细线.png"; sourceTree = "<group>"; };
+		A6B23CC719512FB2008C5FC9 /* 03-编辑设置未选_粗线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑设置未选_粗线.png"; sourceTree = "<group>"; };
+		A6B23CC819512FB2008C5FC9 /* 03-编辑设置未选_红.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑设置未选_红.png"; sourceTree = "<group>"; };
+		A6B23CC919512FB2008C5FC9 /* 03-编辑设置未选_细线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑设置未选_细线.png"; sourceTree = "<group>"; };
+		A6B23CCA19512FB2008C5FC9 /* 03-编辑设置未选_蓝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑设置未选_蓝.png"; sourceTree = "<group>"; };
+		A6B23CCB19512FB2008C5FC9 /* 03-编辑设置未选_黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑设置未选_黄.png"; sourceTree = "<group>"; };
+		A6B23CCC19512FB2008C5FC9 /* 03-编辑设置选中_中细线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑设置选中_中细线.png"; sourceTree = "<group>"; };
+		A6B23CCD19512FB2008C5FC9 /* 03-编辑设置选中_粗线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑设置选中_粗线.png"; sourceTree = "<group>"; };
+		A6B23CCE19512FB2008C5FC9 /* 03-编辑设置选中_红.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑设置选中_红.png"; sourceTree = "<group>"; };
+		A6B23CCF19512FB2008C5FC9 /* 03-编辑设置选中_细线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑设置选中_细线.png"; sourceTree = "<group>"; };
+		A6B23CD019512FB2008C5FC9 /* 03-编辑设置选中_蓝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑设置选中_蓝.png"; sourceTree = "<group>"; };
+		A6B23CD119512FB2008C5FC9 /* 03-编辑设置选中_黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑设置选中_黄.png"; sourceTree = "<group>"; };
+		A6B23CD219512FB2008C5FC9 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		A6B23CD319512FB2008C5FC9 /* com_longbutton_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = com_longbutton_bg.png; sourceTree = "<group>"; };
+		A6B23CD419512FB2008C5FC9 /* datasettype_all_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = datasettype_all_nor.png; sourceTree = "<group>"; };
+		A6B23CD519512FB2008C5FC9 /* datasettype_line_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = datasettype_line_nor.png; sourceTree = "<group>"; };
+		A6B23CD619512FB2008C5FC9 /* datasettype_point_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = datasettype_point_nor.png; sourceTree = "<group>"; };
+		A6B23CD719512FB2008C5FC9 /* datasettype_polygon_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = datasettype_polygon_nor.png; sourceTree = "<group>"; };
+		A6B23CD819512FB2008C5FC9 /* datasettype_text_nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = datasettype_text_nor.png; sourceTree = "<group>"; };
+		A6B23CD919512FB2008C5FC9 /* 主未选_地图展示-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主未选_地图展示-100.png"; sourceTree = "<group>"; };
+		A6B23CDA19512FB2008C5FC9 /* 主未选_地图展示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主未选_地图展示.png"; sourceTree = "<group>"; };
+		A6B23CDB19512FB2008C5FC9 /* 主未选_工作空间-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主未选_工作空间-100.png"; sourceTree = "<group>"; };
+		A6B23CDC19512FB2008C5FC9 /* 主未选_工作空间.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主未选_工作空间.png"; sourceTree = "<group>"; };
+		A6B23CDD19512FB2008C5FC9 /* 主未选_数据源-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主未选_数据源-100.png"; sourceTree = "<group>"; };
+		A6B23CDE19512FB2008C5FC9 /* 主未选_数据源.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主未选_数据源.png"; sourceTree = "<group>"; };
+		A6B23CDF19512FB2008C5FC9 /* 主选中_地图展示-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主选中_地图展示-100.png"; sourceTree = "<group>"; };
+		A6B23CE019512FB2008C5FC9 /* 主选中_地图展示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主选中_地图展示.png"; sourceTree = "<group>"; };
+		A6B23CE119512FB2008C5FC9 /* 主选中_工作空间-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主选中_工作空间-100.png"; sourceTree = "<group>"; };
+		A6B23CE219512FB2008C5FC9 /* 主选中_工作空间.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主选中_工作空间.png"; sourceTree = "<group>"; };
+		A6B23CE319512FB2008C5FC9 /* 主选中_数据源-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主选中_数据源-100.png"; sourceTree = "<group>"; };
+		A6B23CE419512FB2008C5FC9 /* 主选中_数据源.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主选中_数据源.png"; sourceTree = "<group>"; };
+		A6B23CE519512FB2008C5FC9 /* 功能图标_关闭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功能图标_关闭.png"; sourceTree = "<group>"; };
+		A6B23CE619512FB2008C5FC9 /* 功能图标_打开.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功能图标_打开.png"; sourceTree = "<group>"; };
+		A6B23CE719512FB2008C5FC9 /* 功能图标_返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功能图标_返回.png"; sourceTree = "<group>"; };
+		A6B23CE819512FB2008C5FC9 /* 图标-全幅-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标-全幅-72.png"; sourceTree = "<group>"; };
+		A6B23CE919512FB2008C5FC9 /* 图标-全幅.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标-全幅.png"; sourceTree = "<group>"; };
+		A6B23CEA19512FB2008C5FC9 /* 图标-放大-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标-放大-72.png"; sourceTree = "<group>"; };
+		A6B23CEB19512FB2008C5FC9 /* 图标-放大.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标-放大.png"; sourceTree = "<group>"; };
+		A6B23CEC19512FB2008C5FC9 /* 图标-缩小-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标-缩小-72.png"; sourceTree = "<group>"; };
+		A6B23CED19512FB2008C5FC9 /* 图标-缩小.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标-缩小.png"; sourceTree = "<group>"; };
+		A6B23CEE19512FB2008C5FC9 /* 图标_CAD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标_CAD.png"; sourceTree = "<group>"; };
+		A6B23CEF19512FB2008C5FC9 /* 图标_DEM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标_DEM.png"; sourceTree = "<group>"; };
+		A6B23CF019512FB2008C5FC9 /* 图标_iserver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标_iserver.png"; sourceTree = "<group>"; };
+		A6B23CF119512FB2008C5FC9 /* 图标_SIT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标_SIT.png"; sourceTree = "<group>"; };
+		A6B23CF219512FB2008C5FC9 /* 图标_天地图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标_天地图.png"; sourceTree = "<group>"; };
+		A6B23CF319512FB2008C5FC9 /* 图标_百度.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标_百度.png"; sourceTree = "<group>"; };
+		A6B23CF419512FB2008C5FC9 /* 图标_矢量地图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标_矢量地图.png"; sourceTree = "<group>"; };
+		A6B23CF519512FB2008C5FC9 /* 图标_谷歌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标_谷歌.png"; sourceTree = "<group>"; };
+		A6B23CF619512FB2008C5FC9 /* 图标_超图云服务.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标_超图云服务.png"; sourceTree = "<group>"; };
+		A6B23CF719512FB2008C5FC9 /* 图标下一级_未选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标下一级_未选.png"; sourceTree = "<group>"; };
+		A6B23CF819512FB2008C5FC9 /* 图标下一级_选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标下一级_选中.png"; sourceTree = "<group>"; };
+		A6B23CF919512FB2008C5FC9 /* 复选框图标_未选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "复选框图标_未选.png"; sourceTree = "<group>"; };
+		A6B23CFA19512FB2008C5FC9 /* 复选框图标_选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "复选框图标_选中.png"; sourceTree = "<group>"; };
+		A6B23CFB19512FB2008C5FC9 /* 提示框-左侧箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示框-左侧箭头.png"; sourceTree = "<group>"; };
+		A6B23CFC19512FB2008C5FC9 /* 查询_关闭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询_关闭.png"; sourceTree = "<group>"; };
+		A6B23CFD19512FB2008C5FC9 /* 查询_定位图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询_定位图标.png"; sourceTree = "<group>"; };
+		A6B23CFE19512FB2008C5FC9 /* 查询_辐射点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询_辐射点.png"; sourceTree = "<group>"; };
+		A6B23CFF19512FB2008C5FC9 /* 查询状态栏_列表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询状态栏_列表.png"; sourceTree = "<group>"; };
+		A6B23D0019512FB2008C5FC9 /* 查询状态栏_属性查询.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询状态栏_属性查询.png"; sourceTree = "<group>"; };
+		A6B23D0119512FB2008C5FC9 /* 查询状态栏_清除.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询状态栏_清除.png"; sourceTree = "<group>"; };
+		A6B23D0219512FB2008C5FC9 /* 查询状态栏_点范围.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询状态栏_点范围.png"; sourceTree = "<group>"; };
+		A6B23D0319512FB2008C5FC9 /* 查询状态栏_线范围.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询状态栏_线范围.png"; sourceTree = "<group>"; };
+		A6B23D0419512FB2008C5FC9 /* 查询状态栏_面范围.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询状态栏_面范围.png"; sourceTree = "<group>"; };
+		A6B23D0519512FB2008C5FC9 /* 查询状态栏选中_列表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询状态栏选中_列表.png"; sourceTree = "<group>"; };
+		A6B23D0619512FB2008C5FC9 /* 查询状态栏选中_属性查询.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询状态栏选中_属性查询.png"; sourceTree = "<group>"; };
+		A6B23D0719512FB2008C5FC9 /* 查询状态栏选中_清除.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询状态栏选中_清除.png"; sourceTree = "<group>"; };
+		A6B23D0819512FB2008C5FC9 /* 查询状态栏选中_点范围.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询状态栏选中_点范围.png"; sourceTree = "<group>"; };
+		A6B23D0919512FB2008C5FC9 /* 查询状态栏选中_线范围.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询状态栏选中_线范围.png"; sourceTree = "<group>"; };
+		A6B23D0A19512FB2008C5FC9 /* 查询状态栏选中_面范围.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查询状态栏选中_面范围.png"; sourceTree = "<group>"; };
+		A6B23D0B19512FB2008C5FC9 /* 添加未选_涂鸦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加未选_涂鸦.png"; sourceTree = "<group>"; };
+		A6B23D0C19512FB2008C5FC9 /* 添加未选_点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加未选_点.png"; sourceTree = "<group>"; };
+		A6B23D0D19512FB2008C5FC9 /* 添加未选_线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加未选_线.png"; sourceTree = "<group>"; };
+		A6B23D0E19512FB2008C5FC9 /* 添加未选_自由线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加未选_自由线.png"; sourceTree = "<group>"; };
+		A6B23D0F19512FB2008C5FC9 /* 添加未选_自由面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加未选_自由面.png"; sourceTree = "<group>"; };
+		A6B23D1019512FB2008C5FC9 /* 添加未选_面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加未选_面.png"; sourceTree = "<group>"; };
+		A6B23D1119512FB2008C5FC9 /* 添加选中_涂鸦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加选中_涂鸦.png"; sourceTree = "<group>"; };
+		A6B23D1219512FB2008C5FC9 /* 添加选中_点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加选中_点.png"; sourceTree = "<group>"; };
+		A6B23D1319512FB2008C5FC9 /* 添加选中_线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加选中_线.png"; sourceTree = "<group>"; };
+		A6B23D1419512FB2008C5FC9 /* 添加选中_自由线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加选中_自由线.png"; sourceTree = "<group>"; };
+		A6B23D1519512FB2008C5FC9 /* 添加选中_自由面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加选中_自由面.png"; sourceTree = "<group>"; };
+		A6B23D1619512FB2008C5FC9 /* 添加选中_面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加选中_面.png"; sourceTree = "<group>"; };
+		A6B23D1719512FB2008C5FC9 /* 编辑_二级菜单辅助箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑_二级菜单辅助箭头.png"; sourceTree = "<group>"; };
+		A6B23D1819512FB2008C5FC9 /* 编辑对象未选_删除对象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑对象未选_删除对象.png"; sourceTree = "<group>"; };
+		A6B23D1919512FB2008C5FC9 /* 编辑对象未选_删除节点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑对象未选_删除节点.png"; sourceTree = "<group>"; };
+		A6B23D1A19512FB2008C5FC9 /* 编辑对象未选_添加节点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑对象未选_添加节点.png"; sourceTree = "<group>"; };
+		A6B23D1B19512FB2008C5FC9 /* 编辑对象未选_编辑节点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑对象未选_编辑节点.png"; sourceTree = "<group>"; };
+		A6B23D1C19512FB2008C5FC9 /* 编辑对象未选_选中对象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑对象未选_选中对象.png"; sourceTree = "<group>"; };
+		A6B23D1D19512FB2008C5FC9 /* 编辑对象选中_删除对象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑对象选中_删除对象.png"; sourceTree = "<group>"; };
+		A6B23D1E19512FB2008C5FC9 /* 编辑对象选中_删除节点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑对象选中_删除节点.png"; sourceTree = "<group>"; };
+		A6B23D1F19512FB2008C5FC9 /* 编辑对象选中_添加节点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑对象选中_添加节点.png"; sourceTree = "<group>"; };
+		A6B23D2019512FB2008C5FC9 /* 编辑对象选中_编辑节点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑对象选中_编辑节点.png"; sourceTree = "<group>"; };
+		A6B23D2119512FB2008C5FC9 /* 编辑对象选中_选中对象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑对象选中_选中对象.png"; sourceTree = "<group>"; };
+		A6B23D2219512FB2008C5FC9 /* 编辑未选_取消.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑未选_取消.png"; sourceTree = "<group>"; };
+		A6B23D2319512FB2008C5FC9 /* 编辑未选_提交.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑未选_提交.png"; sourceTree = "<group>"; };
+		A6B23D2419512FB2008C5FC9 /* 编辑未选_撤销.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑未选_撤销.png"; sourceTree = "<group>"; };
+		A6B23D2519512FB2008C5FC9 /* 编辑未选_添加对象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑未选_添加对象.png"; sourceTree = "<group>"; };
+		A6B23D2619512FB2008C5FC9 /* 编辑未选_编辑对象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑未选_编辑对象.png"; sourceTree = "<group>"; };
+		A6B23D2719512FB2008C5FC9 /* 编辑未选_重做.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑未选_重做.png"; sourceTree = "<group>"; };
+		A6B23D2819512FB2008C5FC9 /* 编辑未选_风格设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑未选_风格设置.png"; sourceTree = "<group>"; };
+		A6B23D2919512FB2008C5FC9 /* 编辑选中_取消.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑选中_取消.png"; sourceTree = "<group>"; };
+		A6B23D2A19512FB2008C5FC9 /* 编辑选中_提交.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑选中_提交.png"; sourceTree = "<group>"; };
+		A6B23D2B19512FB2008C5FC9 /* 编辑选中_撤销.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑选中_撤销.png"; sourceTree = "<group>"; };
+		A6B23D2C19512FB2008C5FC9 /* 编辑选中_添加对象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑选中_添加对象.png"; sourceTree = "<group>"; };
+		A6B23D2D19512FB2008C5FC9 /* 编辑选中_编辑对象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑选中_编辑对象.png"; sourceTree = "<group>"; };
+		A6B23D2E19512FB2008C5FC9 /* 编辑选中_重做.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑选中_重做.png"; sourceTree = "<group>"; };
+		A6B23D2F19512FB2008C5FC9 /* 编辑选中_风格设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "编辑选中_风格设置.png"; sourceTree = "<group>"; };
+		A6B23D3019512FB2008C5FC9 /* 颜色值.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "颜色值.txt"; sourceTree = "<group>"; };
+		A6B2408E1952C949008C5FC9 /* EditManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditManager.h; sourceTree = "<group>"; };
+		A6B2408F1952C949008C5FC9 /* EditManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditManager.m; sourceTree = "<group>"; };
+		A6B244D81953E716008C5FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A6B244DA1953E716008C5FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A6B244DE1953E724008C5FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6B252D4195D1206008C5FC9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		A6B252FA195D544E008C5FC9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+		A6B77A1E1947EED50005E410 /* MapEditDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapEditDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B77A211947EED50005E410 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6B77A231947EED50005E410 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6B77A251947EED50005E410 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6B77A271947EED50005E410 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A6B77A291947EED50005E410 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A6B77A2B1947EED50005E410 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A6B77A2D1947EED50005E410 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A6B77A311947EED60005E410 /* MapEditDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapEditDemo-Info.plist"; sourceTree = "<group>"; };
+		A6B77A351947EED60005E410 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6B77A371947EED60005E410 /* MapEditDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapEditDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A6B77A381947EED60005E410 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6B77A391947EED60005E410 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6B77A3B1947EED60005E410 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A6B77A3D1947EED60005E410 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A6B77A3F1947EED60005E410 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A6B77A471947EED60005E410 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6B77A481947EED60005E410 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6B77B0F194800230005E410 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		A6B77B10194800230005E410 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		A6B77B14194987FD0005E410 /* SegImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegImp.h; sourceTree = "<group>"; };
+		A6B77B15194987FD0005E410 /* SegImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegImp.m; sourceTree = "<group>"; };
+		A6BFA0EC19502F5D0033D2A6 /* CustomSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegmentedControl.h; sourceTree = "<group>"; };
+		A6D914C11974F4CB007C63CC /* 03-编辑对象未选_距离量算.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑对象未选_距离量算.png"; sourceTree = "<group>"; };
+		A6D914C21974F4CB007C63CC /* 03-编辑对象未选_面积量算.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑对象未选_面积量算.png"; sourceTree = "<group>"; };
+		A6D914C31974F4CB007C63CC /* 03-编辑对象选中_距离量算.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑对象选中_距离量算.png"; sourceTree = "<group>"; };
+		A6D914C41974F4CB007C63CC /* 03-编辑对象选中_面积量算.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑对象选中_面积量算.png"; sourceTree = "<group>"; };
+		A6D914C51974F4CB007C63CC /* 03-编辑未选_量算.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑未选_量算.png"; sourceTree = "<group>"; };
+		A6D914C61974F4CB007C63CC /* 03-编辑选中_量算.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-编辑选中_量算.png"; sourceTree = "<group>"; };
+		A6D970D319860086003D9FFA /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		A6F0578619FF71CD00869DFC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A6F0578819FF71D800869DFC /* SuperMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SuperMap.framework; path = ../../../../../../../../../Library/SDKs/SuperMap/iOS/SuperMap.framework; sourceTree = "<group>"; };
+		A6F0578A19FF71DD00869DFC /* SuperMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SuperMap.bundle; path = ../../../../../../../../../Library/SDKs/SuperMap/iOS/SuperMap.framework/Versions/A/Resources/SuperMap.bundle; sourceTree = "<group>"; };
+		A6F0578E19FF739A00869DFC /* demoData.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = demoData.bundle; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6B77A1B1947EED50005E410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0578719FF71CD00869DFC /* CoreText.framework in Frameworks */,
+				A6D970D419860086003D9FFA /* libiconv.dylib in Frameworks */,
+				A62F149B1978A7F5008ABB25 /* AudioToolbox.framework in Frameworks */,
+				A6B77A221947EED50005E410 /* UIKit.framework in Frameworks */,
+				A6B77A241947EED50005E410 /* Foundation.framework in Frameworks */,
+				A6B77A261947EED50005E410 /* CoreGraphics.framework in Frameworks */,
+				A6B77A281947EED50005E410 /* CoreLocation.framework in Frameworks */,
+				A6B77A2A1947EED50005E410 /* QuartzCore.framework in Frameworks */,
+				A6B77A2C1947EED50005E410 /* OpenGLES.framework in Frameworks */,
+				A6F0578919FF71D800869DFC /* SuperMap.framework in Frameworks */,
+				A6B77A2E1947EED50005E410 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6B23CC519512FB2008C5FC9 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				A62F149C1978AB53008ABB25 /* bg_delete.png */,
+				A62F149D1978AB53008ABB25 /* bg_submit.png */,
+				A6D914C11974F4CB007C63CC /* 03-编辑对象未选_距离量算.png */,
+				A6D914C21974F4CB007C63CC /* 03-编辑对象未选_面积量算.png */,
+				A6D914C31974F4CB007C63CC /* 03-编辑对象选中_距离量算.png */,
+				A6D914C41974F4CB007C63CC /* 03-编辑对象选中_面积量算.png */,
+				A6D914C51974F4CB007C63CC /* 03-编辑未选_量算.png */,
+				A6D914C61974F4CB007C63CC /* 03-编辑选中_量算.png */,
+				A63F8F7C196B98CB002FC19D /* vertical_split_line.png */,
+				A6B252FA195D544E008C5FC9 /* Icon.png */,
+				A6B252D4195D1206008C5FC9 /* Icon@2x.png */,
+				A6B23CC619512FB2008C5FC9 /* 03-编辑设置未选_中细线.png */,
+				A6B23CC719512FB2008C5FC9 /* 03-编辑设置未选_粗线.png */,
+				A6B23CC819512FB2008C5FC9 /* 03-编辑设置未选_红.png */,
+				A6B23CC919512FB2008C5FC9 /* 03-编辑设置未选_细线.png */,
+				A6B23CCA19512FB2008C5FC9 /* 03-编辑设置未选_蓝.png */,
+				A6B23CCB19512FB2008C5FC9 /* 03-编辑设置未选_黄.png */,
+				A6B23CCC19512FB2008C5FC9 /* 03-编辑设置选中_中细线.png */,
+				A6B23CCD19512FB2008C5FC9 /* 03-编辑设置选中_粗线.png */,
+				A6B23CCE19512FB2008C5FC9 /* 03-编辑设置选中_红.png */,
+				A6B23CCF19512FB2008C5FC9 /* 03-编辑设置选中_细线.png */,
+				A6B23CD019512FB2008C5FC9 /* 03-编辑设置选中_蓝.png */,
+				A6B23CD119512FB2008C5FC9 /* 03-编辑设置选中_黄.png */,
+				A6B23CD219512FB2008C5FC9 /* button.png */,
+				A6B23CD319512FB2008C5FC9 /* com_longbutton_bg.png */,
+				A6B23CD419512FB2008C5FC9 /* datasettype_all_nor.png */,
+				A6B23CD519512FB2008C5FC9 /* datasettype_line_nor.png */,
+				A6B23CD619512FB2008C5FC9 /* datasettype_point_nor.png */,
+				A6B23CD719512FB2008C5FC9 /* datasettype_polygon_nor.png */,
+				A6B23CD819512FB2008C5FC9 /* datasettype_text_nor.png */,
+				A6B23CD919512FB2008C5FC9 /* 主未选_地图展示-100.png */,
+				A6B23CDA19512FB2008C5FC9 /* 主未选_地图展示.png */,
+				A6B23CDB19512FB2008C5FC9 /* 主未选_工作空间-100.png */,
+				A6B23CDC19512FB2008C5FC9 /* 主未选_工作空间.png */,
+				A6B23CDD19512FB2008C5FC9 /* 主未选_数据源-100.png */,
+				A6B23CDE19512FB2008C5FC9 /* 主未选_数据源.png */,
+				A6B23CDF19512FB2008C5FC9 /* 主选中_地图展示-100.png */,
+				A6B23CE019512FB2008C5FC9 /* 主选中_地图展示.png */,
+				A6B23CE119512FB2008C5FC9 /* 主选中_工作空间-100.png */,
+				A6B23CE219512FB2008C5FC9 /* 主选中_工作空间.png */,
+				A6B23CE319512FB2008C5FC9 /* 主选中_数据源-100.png */,
+				A6B23CE419512FB2008C5FC9 /* 主选中_数据源.png */,
+				A6B23CE519512FB2008C5FC9 /* 功能图标_关闭.png */,
+				A6B23CE619512FB2008C5FC9 /* 功能图标_打开.png */,
+				A6B23CE719512FB2008C5FC9 /* 功能图标_返回.png */,
+				A6B23CE819512FB2008C5FC9 /* 图标-全幅-72.png */,
+				A6B23CE919512FB2008C5FC9 /* 图标-全幅.png */,
+				A6B23CEA19512FB2008C5FC9 /* 图标-放大-72.png */,
+				A6B23CEB19512FB2008C5FC9 /* 图标-放大.png */,
+				A6B23CEC19512FB2008C5FC9 /* 图标-缩小-72.png */,
+				A6B23CED19512FB2008C5FC9 /* 图标-缩小.png */,
+				A6B23CEE19512FB2008C5FC9 /* 图标_CAD.png */,
+				A6B23CEF19512FB2008C5FC9 /* 图标_DEM.png */,
+				A6B23CF019512FB2008C5FC9 /* 图标_iserver.png */,
+				A6B23CF119512FB2008C5FC9 /* 图标_SIT.png */,
+				A6B23CF219512FB2008C5FC9 /* 图标_天地图.png */,
+				A6B23CF319512FB2008C5FC9 /* 图标_百度.png */,
+				A6B23CF419512FB2008C5FC9 /* 图标_矢量地图.png */,
+				A6B23CF519512FB2008C5FC9 /* 图标_谷歌.png */,
+				A6B23CF619512FB2008C5FC9 /* 图标_超图云服务.png */,
+				A6B23CF719512FB2008C5FC9 /* 图标下一级_未选.png */,
+				A6B23CF819512FB2008C5FC9 /* 图标下一级_选中.png */,
+				A6B23CF919512FB2008C5FC9 /* 复选框图标_未选.png */,
+				A6B23CFA19512FB2008C5FC9 /* 复选框图标_选中.png */,
+				A6B23CFB19512FB2008C5FC9 /* 提示框-左侧箭头.png */,
+				A6B23CFC19512FB2008C5FC9 /* 查询_关闭.png */,
+				A6B23CFD19512FB2008C5FC9 /* 查询_定位图标.png */,
+				A6B23CFE19512FB2008C5FC9 /* 查询_辐射点.png */,
+				A6B23CFF19512FB2008C5FC9 /* 查询状态栏_列表.png */,
+				A6B23D0019512FB2008C5FC9 /* 查询状态栏_属性查询.png */,
+				A6B23D0119512FB2008C5FC9 /* 查询状态栏_清除.png */,
+				A6B23D0219512FB2008C5FC9 /* 查询状态栏_点范围.png */,
+				A6B23D0319512FB2008C5FC9 /* 查询状态栏_线范围.png */,
+				A6B23D0419512FB2008C5FC9 /* 查询状态栏_面范围.png */,
+				A6B23D0519512FB2008C5FC9 /* 查询状态栏选中_列表.png */,
+				A6B23D0619512FB2008C5FC9 /* 查询状态栏选中_属性查询.png */,
+				A6B23D0719512FB2008C5FC9 /* 查询状态栏选中_清除.png */,
+				A6B23D0819512FB2008C5FC9 /* 查询状态栏选中_点范围.png */,
+				A6B23D0919512FB2008C5FC9 /* 查询状态栏选中_线范围.png */,
+				A6B23D0A19512FB2008C5FC9 /* 查询状态栏选中_面范围.png */,
+				A6B23D0B19512FB2008C5FC9 /* 添加未选_涂鸦.png */,
+				A6B23D0C19512FB2008C5FC9 /* 添加未选_点.png */,
+				A6B23D0D19512FB2008C5FC9 /* 添加未选_线.png */,
+				A6B23D0E19512FB2008C5FC9 /* 添加未选_自由线.png */,
+				A6B23D0F19512FB2008C5FC9 /* 添加未选_自由面.png */,
+				A6B23D1019512FB2008C5FC9 /* 添加未选_面.png */,
+				A6B23D1119512FB2008C5FC9 /* 添加选中_涂鸦.png */,
+				A6B23D1219512FB2008C5FC9 /* 添加选中_点.png */,
+				A6B23D1319512FB2008C5FC9 /* 添加选中_线.png */,
+				A6B23D1419512FB2008C5FC9 /* 添加选中_自由线.png */,
+				A6B23D1519512FB2008C5FC9 /* 添加选中_自由面.png */,
+				A6B23D1619512FB2008C5FC9 /* 添加选中_面.png */,
+				A6B23D1719512FB2008C5FC9 /* 编辑_二级菜单辅助箭头.png */,
+				A6B23D1819512FB2008C5FC9 /* 编辑对象未选_删除对象.png */,
+				A6B23D1919512FB2008C5FC9 /* 编辑对象未选_删除节点.png */,
+				A6B23D1A19512FB2008C5FC9 /* 编辑对象未选_添加节点.png */,
+				A6B23D1B19512FB2008C5FC9 /* 编辑对象未选_编辑节点.png */,
+				A6B23D1C19512FB2008C5FC9 /* 编辑对象未选_选中对象.png */,
+				A6B23D1D19512FB2008C5FC9 /* 编辑对象选中_删除对象.png */,
+				A6B23D1E19512FB2008C5FC9 /* 编辑对象选中_删除节点.png */,
+				A6B23D1F19512FB2008C5FC9 /* 编辑对象选中_添加节点.png */,
+				A6B23D2019512FB2008C5FC9 /* 编辑对象选中_编辑节点.png */,
+				A6B23D2119512FB2008C5FC9 /* 编辑对象选中_选中对象.png */,
+				A6B23D2219512FB2008C5FC9 /* 编辑未选_取消.png */,
+				A6B23D2319512FB2008C5FC9 /* 编辑未选_提交.png */,
+				A6B23D2419512FB2008C5FC9 /* 编辑未选_撤销.png */,
+				A6B23D2519512FB2008C5FC9 /* 编辑未选_添加对象.png */,
+				A6B23D2619512FB2008C5FC9 /* 编辑未选_编辑对象.png */,
+				A6B23D2719512FB2008C5FC9 /* 编辑未选_重做.png */,
+				A6B23D2819512FB2008C5FC9 /* 编辑未选_风格设置.png */,
+				A6B23D2919512FB2008C5FC9 /* 编辑选中_取消.png */,
+				A6B23D2A19512FB2008C5FC9 /* 编辑选中_提交.png */,
+				A6B23D2B19512FB2008C5FC9 /* 编辑选中_撤销.png */,
+				A6B23D2C19512FB2008C5FC9 /* 编辑选中_添加对象.png */,
+				A6B23D2D19512FB2008C5FC9 /* 编辑选中_编辑对象.png */,
+				A6B23D2E19512FB2008C5FC9 /* 编辑选中_重做.png */,
+				A6B23D2F19512FB2008C5FC9 /* 编辑选中_风格设置.png */,
+				A6B23D3019512FB2008C5FC9 /* 颜色值.txt */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		A6B77A151947EED50005E410 = {
+			isa = PBXGroup;
+			children = (
+				A6D9CFA91991CB5100BFA8E8 /* sdk */,
+				A6B77B0E1947FFF40005E410 /* classes */,
+				A6B77A2F1947EED60005E410 /* MapEditDemo */,
+				A6B77A201947EED50005E410 /* Frameworks */,
+				A6B77A1F1947EED50005E410 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6B77A1F1947EED50005E410 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6B77A1E1947EED50005E410 /* MapEditDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6B77A201947EED50005E410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0578819FF71D800869DFC /* SuperMap.framework */,
+				A6F0578619FF71CD00869DFC /* CoreText.framework */,
+				A6D970D319860086003D9FFA /* libiconv.dylib */,
+				A62F149A1978A7F5008ABB25 /* AudioToolbox.framework */,
+				A6B77A211947EED50005E410 /* UIKit.framework */,
+				A6B77A231947EED50005E410 /* Foundation.framework */,
+				A6B77A251947EED50005E410 /* CoreGraphics.framework */,
+				A6B77A271947EED50005E410 /* CoreLocation.framework */,
+				A6B77A291947EED50005E410 /* QuartzCore.framework */,
+				A6B77A2B1947EED50005E410 /* OpenGLES.framework */,
+				A6B77A2D1947EED50005E410 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6B77A2F1947EED60005E410 /* MapEditDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A6B244D71953E716008C5FC9 /* MainStoryboard_iPad.storyboard */,
+				A6B244D91953E716008C5FC9 /* MainStoryboard_iPhone.storyboard */,
+				A6B77A381947EED60005E410 /* AppDelegate.h */,
+				A6B77A391947EED60005E410 /* AppDelegate.m */,
+				A6B77A471947EED60005E410 /* ViewController.h */,
+				A6B77A481947EED60005E410 /* ViewController.m */,
+				A6B77A301947EED60005E410 /* Supporting Files */,
+			);
+			path = MapEditDemo;
+			sourceTree = "<group>";
+		};
+		A6B77A301947EED60005E410 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B244DD1953E724008C5FC9 /* InfoPlist.strings */,
+				A6B77A311947EED60005E410 /* MapEditDemo-Info.plist */,
+				A6B77A351947EED60005E410 /* main.m */,
+				A6B77A371947EED60005E410 /* MapEditDemo-Prefix.pch */,
+				A6B77A3B1947EED60005E410 /* Default.png */,
+				A6B77A3D1947EED60005E410 /* Default@2x.png */,
+				A6B77A3F1947EED60005E410 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6B77B0E1947FFF40005E410 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A6B2408E1952C949008C5FC9 /* EditManager.h */,
+				A6B2408F1952C949008C5FC9 /* EditManager.m */,
+				A6B77B0F194800230005E410 /* Common.h */,
+				A6B77B10194800230005E410 /* Common.m */,
+				A6B77B14194987FD0005E410 /* SegImp.h */,
+				A6B77B15194987FD0005E410 /* SegImp.m */,
+				A6382900194C2D2A00500FB0 /* SegImpSecond.h */,
+				A6382901194C2D2A00500FB0 /* SegImpSecond.m */,
+				A6BFA0EC19502F5D0033D2A6 /* CustomSegmentedControl.h */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		A6D9CFA91991CB5100BFA8E8 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				A6B23CC519512FB2008C5FC9 /* img */,
+				A6F0578E19FF739A00869DFC /* demoData.bundle */,
+				A6F0578A19FF71DD00869DFC /* SuperMap.bundle */,
+			);
+			name = sdk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6B77A1D1947EED50005E410 /* MapEditDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B77A4E1947EEDB0005E410 /* Build configuration list for PBXNativeTarget "MapEditDemo" */;
+			buildPhases = (
+				A6B77A1A1947EED50005E410 /* Sources */,
+				A6B77A1B1947EED50005E410 /* Frameworks */,
+				A6B77A1C1947EED50005E410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapEditDemo;
+			productName = MapEditDemo;
+			productReference = A6B77A1E1947EED50005E410 /* MapEditDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6B77A161947EED50005E410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = imobile;
+				TargetAttributes = {
+					A6B77A1D1947EED50005E410 = {
+						DevelopmentTeam = URZW253WPZ;
+					};
+				};
+			};
+			buildConfigurationList = A6B77A191947EED50005E410 /* Build configuration list for PBXProject "MapEditDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6B77A151947EED50005E410;
+			productRefGroup = A6B77A1F1947EED50005E410 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6B77A1D1947EED50005E410 /* MapEditDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6B77A1C1947EED50005E410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B23D3519512FB2008C5FC9 /* 03-编辑设置未选_蓝.png in Resources */,
+				A6B252D5195D1206008C5FC9 /* Icon@2x.png in Resources */,
+				A6B23D7719512FB2008C5FC9 /* 添加未选_点.png in Resources */,
+				A6B23D7119512FB2008C5FC9 /* 查询状态栏选中_属性查询.png in Resources */,
+				A6B23D6F19512FB2008C5FC9 /* 查询状态栏_面范围.png in Resources */,
+				A6B23D5119512FB2008C5FC9 /* 功能图标_打开.png in Resources */,
+				A6B23D4219512FB2008C5FC9 /* datasettype_polygon_nor.png in Resources */,
+				A6B23D8C19512FB2008C5FC9 /* 编辑对象选中_选中对象.png in Resources */,
+				A6B23D3D19512FB2008C5FC9 /* button.png in Resources */,
+				A6B23D7819512FB2008C5FC9 /* 添加未选_线.png in Resources */,
+				A6B23D9B19512FB2008C5FC9 /* 颜色值.txt in Resources */,
+				A6B23D5219512FB2008C5FC9 /* 功能图标_返回.png in Resources */,
+				A6B23D5719512FB2008C5FC9 /* 图标-缩小-72.png in Resources */,
+				A6B23D4319512FB2008C5FC9 /* datasettype_text_nor.png in Resources */,
+				A6B23D3B19512FB2008C5FC9 /* 03-编辑设置选中_蓝.png in Resources */,
+				A62F149E1978AB53008ABB25 /* bg_delete.png in Resources */,
+				A6B23D6219512FB2008C5FC9 /* 图标下一级_未选.png in Resources */,
+				A6B23D5919512FB2008C5FC9 /* 图标_CAD.png in Resources */,
+				A6B23D5519512FB2008C5FC9 /* 图标-放大-72.png in Resources */,
+				A6B23D8A19512FB2008C5FC9 /* 编辑对象选中_添加节点.png in Resources */,
+				A6B23D6D19512FB2008C5FC9 /* 查询状态栏_点范围.png in Resources */,
+				A6B23D3219512FB2008C5FC9 /* 03-编辑设置未选_粗线.png in Resources */,
+				A6B23D6B19512FB2008C5FC9 /* 查询状态栏_属性查询.png in Resources */,
+				A6B77A3C1947EED60005E410 /* Default.png in Resources */,
+				A6B23D4419512FB2008C5FC9 /* 主未选_地图展示-100.png in Resources */,
+				A6B77A3E1947EED60005E410 /* Default@2x.png in Resources */,
+				A6B23D8619512FB2008C5FC9 /* 编辑对象未选_编辑节点.png in Resources */,
+				A6B23D3619512FB2008C5FC9 /* 03-编辑设置未选_黄.png in Resources */,
+				A6B23D5D19512FB2008C5FC9 /* 图标_天地图.png in Resources */,
+				A6B23D4019512FB2008C5FC9 /* datasettype_line_nor.png in Resources */,
+				A6B23D7A19512FB2008C5FC9 /* 添加未选_自由面.png in Resources */,
+				A6B23D3119512FB2008C5FC9 /* 03-编辑设置未选_中细线.png in Resources */,
+				A6F0578B19FF71DD00869DFC /* SuperMap.bundle in Resources */,
+				A6B77A401947EED60005E410 /* Default-568h@2x.png in Resources */,
+				A6B23D8B19512FB2008C5FC9 /* 编辑对象选中_编辑节点.png in Resources */,
+				A6D914C91974F4CB007C63CC /* 03-编辑对象选中_距离量算.png in Resources */,
+				A6B23D6519512FB2008C5FC9 /* 复选框图标_选中.png in Resources */,
+				A6B23D7619512FB2008C5FC9 /* 添加未选_涂鸦.png in Resources */,
+				A6B23D7319512FB2008C5FC9 /* 查询状态栏选中_点范围.png in Resources */,
+				A6B23D5619512FB2008C5FC9 /* 图标-放大.png in Resources */,
+				A6D914CC1974F4CB007C63CC /* 03-编辑选中_量算.png in Resources */,
+				A6B23D5819512FB2008C5FC9 /* 图标-缩小.png in Resources */,
+				A6B23D8F19512FB2008C5FC9 /* 编辑未选_撤销.png in Resources */,
+				A6B23D4F19512FB2008C5FC9 /* 主选中_数据源.png in Resources */,
+				A6B23D8E19512FB2008C5FC9 /* 编辑未选_提交.png in Resources */,
+				A6B23D3719512FB2008C5FC9 /* 03-编辑设置选中_中细线.png in Resources */,
+				A6B23D5E19512FB2008C5FC9 /* 图标_百度.png in Resources */,
+				A6D914C81974F4CB007C63CC /* 03-编辑对象未选_面积量算.png in Resources */,
+				A6B23D8019512FB2008C5FC9 /* 添加选中_自由面.png in Resources */,
+				A6D914C71974F4CB007C63CC /* 03-编辑对象未选_距离量算.png in Resources */,
+				A6B23D4A19512FB2008C5FC9 /* 主选中_地图展示-100.png in Resources */,
+				A6B23D3A19512FB2008C5FC9 /* 03-编辑设置选中_细线.png in Resources */,
+				A6B23D8519512FB2008C5FC9 /* 编辑对象未选_添加节点.png in Resources */,
+				A6B23D5419512FB2008C5FC9 /* 图标-全幅.png in Resources */,
+				A6B23D6719512FB2008C5FC9 /* 查询_关闭.png in Resources */,
+				A6B244DB1953E716008C5FC9 /* MainStoryboard_iPad.storyboard in Resources */,
+				A6B23D9A19512FB2008C5FC9 /* 编辑选中_风格设置.png in Resources */,
+				A6B23D8719512FB2008C5FC9 /* 编辑对象未选_选中对象.png in Resources */,
+				A6B23D7B19512FB2008C5FC9 /* 添加未选_面.png in Resources */,
+				A6B23D7019512FB2008C5FC9 /* 查询状态栏选中_列表.png in Resources */,
+				A6B23D8819512FB2008C5FC9 /* 编辑对象选中_删除对象.png in Resources */,
+				A6B23D9819512FB2008C5FC9 /* 编辑选中_编辑对象.png in Resources */,
+				A6B252FB195D544E008C5FC9 /* Icon.png in Resources */,
+				A6B23D9719512FB2008C5FC9 /* 编辑选中_添加对象.png in Resources */,
+				A6B23D9019512FB2008C5FC9 /* 编辑未选_添加对象.png in Resources */,
+				A6B23D6C19512FB2008C5FC9 /* 查询状态栏_清除.png in Resources */,
+				A6B23D9619512FB2008C5FC9 /* 编辑选中_撤销.png in Resources */,
+				A6D914CA1974F4CB007C63CC /* 03-编辑对象选中_面积量算.png in Resources */,
+				A62F149F1978AB53008ABB25 /* bg_submit.png in Resources */,
+				A6B23D8419512FB2008C5FC9 /* 编辑对象未选_删除节点.png in Resources */,
+				A6B23D6119512FB2008C5FC9 /* 图标_超图云服务.png in Resources */,
+				A6B23D4C19512FB2008C5FC9 /* 主选中_工作空间-100.png in Resources */,
+				A6B23D5C19512FB2008C5FC9 /* 图标_SIT.png in Resources */,
+				A6B23D6A19512FB2008C5FC9 /* 查询状态栏_列表.png in Resources */,
+				A6B23D6419512FB2008C5FC9 /* 复选框图标_未选.png in Resources */,
+				A6B23D6319512FB2008C5FC9 /* 图标下一级_选中.png in Resources */,
+				A6B23D7519512FB2008C5FC9 /* 查询状态栏选中_面范围.png in Resources */,
+				A6B244DF1953E724008C5FC9 /* InfoPlist.strings in Resources */,
+				A6B23D7419512FB2008C5FC9 /* 查询状态栏选中_线范围.png in Resources */,
+				A6B23D6619512FB2008C5FC9 /* 提示框-左侧箭头.png in Resources */,
+				A6B23D5019512FB2008C5FC9 /* 功能图标_关闭.png in Resources */,
+				A6B23D9119512FB2008C5FC9 /* 编辑未选_编辑对象.png in Resources */,
+				A6B23D3419512FB2008C5FC9 /* 03-编辑设置未选_细线.png in Resources */,
+				A6B23D7919512FB2008C5FC9 /* 添加未选_自由线.png in Resources */,
+				A6D914CB1974F4CB007C63CC /* 03-编辑未选_量算.png in Resources */,
+				A6B23D9519512FB2008C5FC9 /* 编辑选中_提交.png in Resources */,
+				A6B23D6019512FB2008C5FC9 /* 图标_谷歌.png in Resources */,
+				A6B23D4619512FB2008C5FC9 /* 主未选_工作空间-100.png in Resources */,
+				A6B23D7219512FB2008C5FC9 /* 查询状态栏选中_清除.png in Resources */,
+				A6B23D8D19512FB2008C5FC9 /* 编辑未选_取消.png in Resources */,
+				A6B23D3919512FB2008C5FC9 /* 03-编辑设置选中_红.png in Resources */,
+				A6B23D5A19512FB2008C5FC9 /* 图标_DEM.png in Resources */,
+				A6B23D7D19512FB2008C5FC9 /* 添加选中_点.png in Resources */,
+				A6B23D7C19512FB2008C5FC9 /* 添加选中_涂鸦.png in Resources */,
+				A63F8F7D196B98CB002FC19D /* vertical_split_line.png in Resources */,
+				A6B23D4E19512FB2008C5FC9 /* 主选中_数据源-100.png in Resources */,
+				A6B23D3C19512FB2008C5FC9 /* 03-编辑设置选中_黄.png in Resources */,
+				A6B23D6819512FB2008C5FC9 /* 查询_定位图标.png in Resources */,
+				A6B23D6919512FB2008C5FC9 /* 查询_辐射点.png in Resources */,
+				A6B23D4519512FB2008C5FC9 /* 主未选_地图展示.png in Resources */,
+				A6B23D4719512FB2008C5FC9 /* 主未选_工作空间.png in Resources */,
+				A6B23D8319512FB2008C5FC9 /* 编辑对象未选_删除对象.png in Resources */,
+				A6B23D4D19512FB2008C5FC9 /* 主选中_工作空间.png in Resources */,
+				A6B23D5319512FB2008C5FC9 /* 图标-全幅-72.png in Resources */,
+				A6B23D3819512FB2008C5FC9 /* 03-编辑设置选中_粗线.png in Resources */,
+				A6B23D8219512FB2008C5FC9 /* 编辑_二级菜单辅助箭头.png in Resources */,
+				A6B23D7F19512FB2008C5FC9 /* 添加选中_自由线.png in Resources */,
+				A6B23D4919512FB2008C5FC9 /* 主未选_数据源.png in Resources */,
+				A6B23D4119512FB2008C5FC9 /* datasettype_point_nor.png in Resources */,
+				A6B23D5B19512FB2008C5FC9 /* 图标_iserver.png in Resources */,
+				A6B23D9919512FB2008C5FC9 /* 编辑选中_重做.png in Resources */,
+				A6B23D4819512FB2008C5FC9 /* 主未选_数据源-100.png in Resources */,
+				A6B23D8119512FB2008C5FC9 /* 添加选中_面.png in Resources */,
+				A6B23D9319512FB2008C5FC9 /* 编辑未选_风格设置.png in Resources */,
+				A6F0578F19FF739A00869DFC /* demoData.bundle in Resources */,
+				A6B23D8919512FB2008C5FC9 /* 编辑对象选中_删除节点.png in Resources */,
+				A6B23D9419512FB2008C5FC9 /* 编辑选中_取消.png in Resources */,
+				A6B23D3F19512FB2008C5FC9 /* datasettype_all_nor.png in Resources */,
+				A6B23D6E19512FB2008C5FC9 /* 查询状态栏_线范围.png in Resources */,
+				A6B23D7E19512FB2008C5FC9 /* 添加选中_线.png in Resources */,
+				A6B23D5F19512FB2008C5FC9 /* 图标_矢量地图.png in Resources */,
+				A6B23D4B19512FB2008C5FC9 /* 主选中_地图展示.png in Resources */,
+				A6B23D9219512FB2008C5FC9 /* 编辑未选_重做.png in Resources */,
+				A6B244DC1953E716008C5FC9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				A6B23D3E19512FB2008C5FC9 /* com_longbutton_bg.png in Resources */,
+				A6B23D3319512FB2008C5FC9 /* 03-编辑设置未选_红.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6B77A1A1947EED50005E410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B77A361947EED60005E410 /* main.m in Sources */,
+				A6B240901952C949008C5FC9 /* EditManager.m in Sources */,
+				A6382902194C2D2A00500FB0 /* SegImpSecond.m in Sources */,
+				A6B77A3A1947EED60005E410 /* AppDelegate.m in Sources */,
+				A6B77A491947EED60005E410 /* ViewController.m in Sources */,
+				A6B77B11194800230005E410 /* Common.m in Sources */,
+				A6B77B16194987FD0005E410 /* SegImp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6B244D71953E716008C5FC9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B244D81953E716008C5FC9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A6B244D91953E716008C5FC9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B244DA1953E716008C5FC9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A6B244DD1953E724008C5FC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B244DE1953E724008C5FC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6B77A4C1947EEDB0005E410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					SuperMap,
+					"-lstdc++",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		A6B77A4D1947EEDB0005E410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = "{\n    Debug = NO;\n    Release = NO;\n}";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					SuperMap,
+					"-lstdc++",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		A6B77A4F1947EEDB0005E410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ling Zhang (3STAT3RTS7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ling Zhang (3STAT3RTS7)";
+				FRAMEWORK_SEARCH_PATHS = "$(LOCAL_LIBRARY_DIR)/SDKs/SuperMap/iOS";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapEditDemo/MapEditDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "MapEditDemo/MapEditDemo-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "977A2082-FA00-436A-97C0-DBF2FEC08287";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6B77A501947EEDB0005E410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ling Zhang (3STAT3RTS7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ling Zhang (3STAT3RTS7)";
+				FRAMEWORK_SEARCH_PATHS = "$(LOCAL_LIBRARY_DIR)/SDKs/SuperMap/iOS";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapEditDemo/MapEditDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "MapEditDemo/MapEditDemo-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "977A2082-FA00-436A-97C0-DBF2FEC08287";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6B77A191947EED50005E410 /* Build configuration list for PBXProject "MapEditDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B77A4C1947EEDB0005E410 /* Debug */,
+				A6B77A4D1947EEDB0005E410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B77A4E1947EEDB0005E410 /* Build configuration list for PBXNativeTarget "MapEditDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B77A4F1947EEDB0005E410 /* Debug */,
+				A6B77A501947EEDB0005E410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6B77A161947EED50005E410 /* Project object */;
+}
